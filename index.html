@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facts</title>
+    <link rel="stylesheet" href="tailwind.css">
+</head>
+
+<body class="bg-gray-900">
+    <div class="flex justify-center items-center my-12 space-x-2">
+        <div id="loading" class="bg-gradient-to-r from-gray-900 my-12 to-indigo-600 spinner-border animate-spin inline-block w-32 h-32 border-l-4 rounded-full text-blue-600" role="status">
+        </div>
+        <p id="loading-text" class="text-white text-2xl">Loading new joke..</p>
+    </div>
+    <div id="content" class="hidden">
+        <div class="my-24 w-fit p-3 m-auto bg-gray-800 rounded-lg">
+            <h1 class="text-white text-2xl">Here's a fun fact:</h1>
+            <p class="text-white text-xl center" id="fact">
+            </p>
+        </div>
+    </div>
+    <a class="text-white m-1 text-md fixed bottom-0 left-0 href" href="https://github.com/JaydenDev">JaydenDev</a>
+    <a class="text-white m-1 text-md fixed bottom-0 right-0 href" href="https://github.com/JaydenDev/facts">Source Code</a>
+    <script src="script.js"></script>
+</body>
+
+</html>
