@@ -17,7 +17,7 @@ function toggleLoading() {
 
 document.addEventListener("DOMContentLoaded", function() {
     toggleLoading()
-    document.getElementById("fact").innerHTML = getRandomFact();
+    getRandomFact();
 });
 
 setInterval(function() {
@@ -28,5 +28,6 @@ setInterval(function() {
         document.getElementById("content").classList.remove("hidden");
         document.getElementById("loading").classList.add("hidden");
         document.getElementById("loading-text").classList.add("hidden");
+        getRandomFact();
     }, 100);
 }, 5000);
