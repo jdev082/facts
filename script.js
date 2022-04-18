@@ -19,7 +19,7 @@ let phrases = [
     "only cool people have an ocular statuses?",
     'the word "notch" was originally "oche" but people misheard it when others said "an oche"',
     "the scratch team can see your gender",
-    'you cannot sign up to scratch with the name "qnb02mclepghwic9"',
+    'you cannot sign up to scratch with the name "qnb02mclepghwic9" because it is taken, courtesy of Jeffalo',
     "scratch projects are never deleted unless specifically you ask the scratch team to",
     "scrath has a bug bounty program",
     "it is currently 9:51 while i write this",
@@ -67,7 +67,18 @@ let phrases = [
     "ocular's privacy policy is something you should read",
     "there are a few people contributing to ocular's open source code",
     '"coural" is an anagram of "ocular"',
-    "ocular works on obscure platforms, such as watchOS",
+    "ocular works on obscure platforms, such as watchOS"
+    'the scratch team owns "scratch.mit.edu"'
+    "qloakonscratch is cool"
+    "it is 11:20 pm where mit lives as i am writing this"
+    "i am very tempted to use capital letters"
+    "1+1 is 2"
+    "minecraft was made by notch"
+    "scratch is a beginner block-coding website made by mit"
+    "this website utilizes a .eu.org domain"
+    "We basically have no idea how many stars there are in the universe. Right now we use our estimate of how many stars there are in our own galaxy, the Milky Way. We then multiply that number by the best guesstimate of the number of galaxies in the universe. After all that math, NASA can only confidently say that say there all zillions of uncountable stars. A zillion is any uncountable amount.
+
+",
 ]
 
 function getRandomFact() {
