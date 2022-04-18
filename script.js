@@ -5,6 +5,12 @@ function getRandomFact() {
             const { fact } = data;
             document.getElementById("fact").innerHTML = fact;
         });
+    fetch('https://api.jaydendev.repl.co/fact/hourly')
+        .then(res => res.json())
+        .then(data => {
+            const { fact } = data;
+            document.getElementById("factHourly").innerHTML = fact;
+        });
 }
 
 function toggleLoading() {
