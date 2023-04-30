@@ -1,16 +1,16 @@
 function getRandomFact() {
-    fetch('https://api.jaydendev.repl.co/fact')
+    fetch('https://a.jdev.eu.org/fact/specify/count/random/1')
         .then(res => res.json())
         .then(data => {
-            const { fact } = data.0;
+            const fact = data[0];
             document.getElementById("fact").innerHTML = fact;
         });
-    fetch('https://api.jaydendev.repl.co/fact/hourly')
+    /*fetch('https://api.jdev082.repl.co/fact/hourly')
         .then(res => res.json())
         .then(data => {
             const { fact } = data;
             document.getElementById("factHourly").innerText = 'disabled';
-        });
+        });*/
 }
 
 function toggleLoading() {
